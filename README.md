@@ -2,11 +2,11 @@
 
 ### Software Developer Jr. | Python Backend Developer
 
-Desarrollador de software enfocado en **Backend con Python**, desarrollo de aplicaciones web, APIs y automatización de procesos.
+Desarrollador de software enfocado en **Backend con Python**, desarrollo de aplicaciones web, APIs REST y automatización de procesos.
 
-Actualmente continúo fortaleciendo mis conocimientos mediante proyectos prácticos en desarrollo de software, trabajando con tecnologías como **Python, Flask, FastAPI, Git, Docker y Linux**.
+Trabajo principalmente con **Python, Flask, FastAPI, React, Docker, Git y Linux**, desarrollando proyectos prácticos que abarcan desde herramientas de análisis SEO hasta arquitecturas basadas en microservicios y aplicaciones móviles.
 
-Mi objetivo es incorporarme profesionalmente como **Software Developer Jr., Python Developer Jr. o Backend Developer Jr.**, participando en proyectos donde pueda continuar desarrollando mis habilidades y aportar soluciones mediante software.
+Actualmente continúo fortaleciendo mis conocimientos mientras construyo proyectos orientados a resolver problemas reales y mejorar mis prácticas de desarrollo, arquitectura y control de versiones.
 
 ---
 
@@ -17,20 +17,29 @@ Mi objetivo es incorporarme profesionalmente como **Software Developer Jr., Pyth
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![REST API](https://img.shields.io/badge/REST-API-0096FF?style=for-the-badge)
+![REST API](https://img.shields.io/badge/REST_API-0096FF?style=for-the-badge)
 
-### Desarrollo Web
+### Frontend y desarrollo móvil
 
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### Herramientas
+### Datos e infraestructura
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### Desarrollo y control de versiones
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 ---
 
@@ -38,58 +47,149 @@ Mi objetivo es incorporarme profesionalmente como **Software Developer Jr., Pyth
 
 ### 🔎 SEO Optimizer
 
-Plataforma web desarrollada para automatizar procesos de análisis y evaluación SEO.
+Herramienta web desarrollada para **automatizar el análisis y evaluación de contenido SEO**, centralizando diferentes métricas y recomendaciones dentro de una misma plataforma.
 
-**Principales características:**
+**Características principales:**
 
-- Análisis de palabras clave.
+- Análisis de palabras clave y densidad.
 - Validación de encabezados.
-- Evaluación de metadatos.
+- Evaluación de SEO Title y Meta Description.
 - Análisis de legibilidad.
-- Generación de métricas SEO.
-- Dashboard para visualizar resultados.
-- Automatización de procesos de análisis.
+- Generación de métricas y recomendaciones SEO.
+- Dashboard para visualización de resultados.
+- Generación de reportes.
+- Automatización de tareas de análisis SEO.
 
-**Tecnologías:** Python · Flask · HTML · CSS · JavaScript · Git
+**Tecnologías:** `Python` · `Flask` · `HTML` · `CSS` · `JavaScript` · `Git`
+
+---
+
+### ⚙️ SEO Automation Platform
+
+Plataforma de auditoría SEO construida mediante una **arquitectura basada en microservicios**, donde diferentes servicios especializados analizan de forma independiente distintas áreas de un sitio web.
+
+**Arquitectura principal:**
+
+```text
+React Dashboard
+       │
+       ▼
+ API Gateway
+   (FastAPI)
+       │
+ ┌─────┼─────────┬───────────┐
+ ▼     ▼         ▼           ▼
+SEO   SEO       SEO         SEO
+Content OnPage  Technical   Monitor
+       │
+       ▼
+   PostgreSQL
+```
+
+**Características principales:**
+
+- API Gateway desarrollado con FastAPI.
+- Servicios SEO independientes.
+- Auditorías sobre sitios web reales.
+- Análisis de contenido, SEO On-Page y aspectos técnicos.
+- Monitoreo de disponibilidad y estado del sitio.
+- Historial de auditorías.
+- Persistencia mediante PostgreSQL.
+- Dashboard desarrollado con React.
+- Comunicación entre servicios mediante APIs REST.
+- Entorno contenerizado con Docker.
+
+**Tecnologías:** `Python` · `FastAPI` · `React` · `PostgreSQL` · `Docker` · `REST APIs`
 
 ---
 
 ### 📱 MUSE Mobile
 
-Aplicación móvil actualmente en desarrollo, orientada a proporcionar una experiencia multiplataforma y optimizada para dispositivos Android.
+Aplicación móvil multiplataforma actualmente **en desarrollo**, orientada a la gestión digital de prendas y outfits.
 
-El proyecto incluye desarrollo, pruebas mediante emuladores y validación en dispositivos físicos.
+El proyecto me permite trabajar con desarrollo móvil moderno, persistencia de información, navegación, almacenamiento de imágenes y pruebas tanto en emuladores como en dispositivos Android físicos.
 
-**Estado:** 🚧 En desarrollo
+**Actualmente incluye trabajo con:**
+
+- Gestión de prendas.
+- Creación y edición de información.
+- Navegación mediante Expo Router.
+- Persistencia y manejo de estado.
+- Integración con Supabase.
+- Almacenamiento de imágenes.
+- Sistema de favoritos.
+- Componentes reutilizables y sistema visual.
+- Pruebas mediante Android Emulator y dispositivos físicos.
+
+> 🚧 **Estado:** proyecto en desarrollo activo. Algunas características continúan en implementación y validación.
+
+**Tecnologías:** `React Native` · `Expo` · `TypeScript` · `Supabase` · `Zustand`
+
+---
+
+## 🧩 Áreas en las que trabajo
+
+```text
+Backend Development       Python · Flask · FastAPI
+API Development           REST APIs · JSON
+Frontend Development      React · JavaScript
+Mobile Development        React Native · Expo · TypeScript
+Databases                 PostgreSQL · Supabase
+Dev Tools                 Git · GitHub · Docker
+Development Environment   Linux · Windows
+```
 
 ---
 
 ## 🎓 Formación
 
-Actualmente continúo mi formación en **Tecnologías de la Información — Entornos Virtuales y Negocios Digitales**, complementando mis estudios mediante proyectos de desarrollo de software y aprendizaje continuo.
+Estudiante de **Tecnologías de la Información — Entornos Virtuales y Negocios Digitales**, complementando mi formación académica mediante proyectos prácticos de desarrollo de software.
 
-También cuento con formación y credenciales de **Cisco Networking Academy** en áreas como redes, ciberseguridad, inteligencia artificial e Internet de las Cosas.
+También cuento con formación y credenciales de **Cisco Networking Academy** relacionadas con áreas como:
+
+- Redes.
+- Ciberseguridad.
+- Inteligencia artificial.
+- Internet de las Cosas.
+- Tecnologías de la información.
 
 ---
 
-## 📚 Actualmente aprendiendo y mejorando
+## 📚 Actualmente fortaleciendo
 
 - Desarrollo Backend con Python.
 - Diseño y desarrollo de APIs REST.
 - Arquitectura de aplicaciones.
+- Arquitecturas basadas en microservicios.
 - Docker y contenerización.
+- Bases de datos.
 - Linux como entorno de desarrollo.
 - Buenas prácticas con Git y GitHub.
-- Desarrollo móvil.
+- Desarrollo móvil con React Native y Expo.
+- Pruebas y mantenimiento de aplicaciones.
+
+---
+
+## 🎯 Objetivo profesional
+
+Busco continuar desarrollándome profesionalmente en posiciones como:
+
+- **Software Developer Jr.**
+- **Python Developer Jr.**
+- **Backend Developer Jr.**
+
+Me interesa participar en proyectos donde pueda aplicar mis conocimientos actuales, adquirir experiencia profesional y continuar creciendo en desarrollo de software.
 
 ---
 
 ## 📫 Contacto
 
-Estoy interesado en oportunidades como:
+Puedes conocer más sobre mis proyectos explorando los repositorios de este perfil.
 
-- Software Developer Jr.
-- Python Developer Jr.
-- Backend Developer Jr.
+También puedes contactarme mediante **LinkedIn**.
 
-Puedes contactarme mediante **LinkedIn** o a través de este perfil de GitHub.
+---
+
+<p align="center">
+  <i>Construyendo proyectos, aprendiendo continuamente y mejorando una versión a la vez.</i>
+</p>
